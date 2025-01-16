@@ -1,0 +1,77 @@
+:root{
+    font-size:16px;
+}
+
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    background-color: #FFF0ED;
+}
+
+
+h1, h2{
+    font-size: 3.75rem;
+    font-weight: 300;
+
+}
+
+h3,.nav-heading, .footer-heading{
+    font-size: 2.0625rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+.icon{
+    width: 3.125rem;
+}
+
+
+.button{
+    background-color:#5BACC3;
+    color:white;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding: 0 0;
+    margin-bottom: 0;
+}
+
+
+.discount-banner{
+    width:90%;
+    background-color: #393939;
+    color: white;
+    font-size: 2.8125rem;
+    font-weight:400;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+
+.price{
+    color: #5BACC3;
+    font-weight: 400;
+    font-size: 2.0625rem;
+}
+
+
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.highlight{
+    font-weight: 700;
+}
+
