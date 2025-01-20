@@ -1,78 +1,5 @@
 
-/* body {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    background-color: #FFF0ED;
-}
-
-
-h1, h2{
-    font-size: 3.75rem;
-    font-weight: 300;
-
-}
-
-h3,.nav-heading, .footer-heading{
-    font-size: 2.0625rem;
-    font-weight: 300;
-    text-align: center;
-}
-
-p{
-    font-size: 1.125rem;
-    font-weight: 400;
-}
-
-
-.icon{
-    width: 3.125rem;
-}
-
-
-.button{
-    background-color:#5BACC3;
-    color:white;
-    font-size: 1.3125rem;
-    font-weight: 400;
-    border: none;
-    outline: none;
-    padding: 0 0;
-    margin-bottom: 0;
-}
-
-.products__wrapper{
-    display:flex;
-    justify-content:center;
-    gap: 10px;
-}
-
-.product-items{
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    padding: 1.25rem;
-    box-shadow: 0 2px 4px;
-    text-align: center;
-    width:330px;
-}
-
-.price{
-    color: #5BACC3;
-    font-weight: 400;
-    font-size: 2.0625rem;
-}
-
-
- */
-
-/* Navigation Bar */
-
-/* body, html{
-  height: 100px;
-  margin: 0;
-  padding: 0 10%;
-} */
-
-.nitro-header {
+/* .nitro-header {
   display: flex;
   justify-content: space-between;
   background: #fff0ed;  
@@ -111,17 +38,15 @@ p{
   font-family: "open sans";
   font-weight: 300;
   margin: auto 0;
-}
+} */
 
 /* Hero Section */
 
 .nitro-hero {
   display: flex;
-  border: 2px solid red;
   justify-content: space-between;
   background-color: #fff0ed;
   padding:50px;
-
 }
 
 .nitro-hero__left-container {
@@ -130,9 +55,7 @@ p{
  width:25%;
 }
 
-.nitro-hero__nitro-heading{
-  padding-top: ;
-}
+
 
 .nitro-hero__button-container{
   background-color: #5bacc3;
@@ -160,49 +83,9 @@ p{
   color: #F7F7F7;
 }
 
-
-
-
-/* .button {
-  box-sizing: border-box;
-  display:inline-flex;
-  justify-content:space-between;
-  padding:0.625rem 1rem;
-  margin-top: 50px;
-  text-decoration: none;
-  color: white;
-  background-color: #5bacc3;
-  position: relative;
-} */
-/* 
-.button__border{
-  position:absolute;
-  border: 2px solid #393939;
-  width: 100%;
-  height: 100%;
-  top: -3px;
-  left: -3px;
-}
-
-.button__text{
-  position:relative;
-  top: -3px;
-  left: -3px;
-} */
-
 .nitro-hero__right-container {
-  margin-right: 50px;
+  margin-right: 120px;
 }
-/* .nitro-hero__button::after {
-  content: "";
-  border: 2px solid #393939;
-  position: absolute;
-  top: 5px;
-  right: -5px;
-  bottom: -5px;
-  left: 5px;
-} */
-
 
 
 /* Product Items Section */
@@ -324,12 +207,37 @@ p{
   background-size: cover;
   width:400px;
   margin-right:100px;
+  position:relative;
+  display: block;
+}
+.we-different__right-container::after{
+  content:"";
+  position: absolute;
+  border:5px solid #5BACC3;
+  z-index: 1;
+  top:-15px;
+  bottom:15px;
+  left:-15px;
+  right:15px;
 }
 
 .we-different__coldBrew-img{
   margin-top:60px;
   margin-left: 100px;
+  animation: spin 4s infinite linear;
+  transform-origin: center;}
+
+
+@keyframes spin{
+  0%{
+    transform: rotate(0);
+  }
+
+  100%{
+    transform: rotate(360);
+  }
 }
+
 
  /* Discount Banner Section */
 
@@ -351,11 +259,6 @@ p{
   font-weight: 700;
 }
   
-
-
-
-  
-
 
 /* Footer Section */
 .footer{
@@ -387,41 +290,4 @@ p{
   margin-top: 5rem;  
 }
 
-/* .footer{
-  display:flex;
-  justify-content:center;
-  padding: 20px;
-  background:#fff0ed;
-  margin: 20px;
-  position: relative;
-  h3{
-      margin-bottom: 0.625rem;
-  }
-}
 
-.footer__background-left{
-  position: absolute;
-  left:-20px;
-  width: 60px;
-  height:auto;
-}
-
-.footer__background-right{
-  position: absolute;
-  right: -20px;
-  width: 60px;
-  height: auto;
-}
-
-.footer__address, .footer__hours, .footer__social{
-  flex:1;
-  padding:30px;
-  }
-
-  .footer__highlight{
-    font-weight: bold;
-  }
-
-  .footer__icon{
-    
-  } */ */

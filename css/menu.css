@@ -1,60 +1,18 @@
-:root{
-    font-size:16px;
-}
-
-body {
-    font-family: 'Open Sans';
-    font-weight: 400;
-}
 
 h1, h2{
-    font-size: 3.75rem;
-    font-weight: 300;
     text-align: center;
-}
-
-h3,.nav-heading{
-    font-size: 2.0625rem;
-    font-weight: 300;
 }
 
 h3{
     text-align: center;
 }
 
-
-
-.nav-heading,
-.nav-links {
-    font-weight: 300;
-}
-
 p{
-    font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
-/* .coffee-beans-logo-and-footer{
-    width: 3.125rem;
-    display: flex;
-    align-items: center;
-} */
-
-
-.menu-title-box{
-    width: 18.75rem;
-    height: 12.5rem;
-    background-color: #393939;
-    color: white;
-    text-align:center;
-    padding: 1.25rem;
-    margin: 0rem;
-    display: inline-block;
-}
-
-
-.header-background{
+.nitro-header__background{
     background-image: url(../assets/images/coffee-circle.jpg);
     width: 100%;
     height: 43.75rem;
@@ -62,61 +20,109 @@ p{
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     padding-top: 1.25rem;
 }
 
+.nitro-header__menu-background{   
+    width:300px;
+    height:100px;
+    background-color: #393939;
+    color:#F7F7F7;
+    padding: 50px 30px 30px 30px;
+    position:relative;
+     
+}
 
-.sub-navigation{
+.nitro-header__menu-background::after{
+    position:absolute;
+    border:5px solid #5BACC3;
+    content:"";
+    top:-15px;
+    right:15px;
+    bottom:15px;
+    left:-15px;
+    z-index:1;
+}
+
+.nitro-header__sub-navigation{
     text-align: center;
     text-transform: capitalize;
     display: inline-flex;
     background-color: #393939;
     color: white;
     width: 100%;
-    height: 5rem;
     padding: 1.25rem;
     border: 0.25rem #5BACC3;
     align-items:center;
     justify-content: center;
+    
 }
 
-
-.sub-navigation a{
+.nitro-header__sub-navigation-link{
     color: white;
     text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    border-left: 2px solid  #5BACC3;
+    padding-left:30px;
+    margin:auto 15px;
+    border-left: 4px solid  #5BACC3;
+    font-size:21px;
+    
 }
 
+/* Hot Drinks Section */
+.menu-options__hotDrinkSection{
+    background-color: #FFF0ED;
+    padding: 20px 5px;
+}
 
-.item-definition{
+.menu-options__hot-item{
     font-style: italic;
     text-align: center;
     width: 600px;
     margin: 0 auto;
 }
 
-
-.price{
+.menu-options__hot-price{
     color: #5BACC3;
     text-align: center;
     font-weight: 600;
 }
 
 
-.HotDrinkSection{
+/* Cold Drinks Section */
+.menu-options__coldDrinkSection{
+    background-color: #F7F7F7;
+    padding: 20px 5px;
+}
+
+.menu-options__cold-item{
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.menu-options__cold-price{
+    color: #5BACC3;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Pastries Section */
+.menu-options__pastries{
     background-color: #FFF0ED;
     padding: 20px 5px;
 }
 
-
-.ColdDrinkSection{
-    background-color: #F7F7F7 ;
+.menu-options__pastries-item{
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
 }
 
-
-.Pastries{
-    background-color: #FFF0ED;
+.menu-options__pastries-price{
+    color: #5BACC3;
+    text-align: center;
+    font-weight: 600;
 }

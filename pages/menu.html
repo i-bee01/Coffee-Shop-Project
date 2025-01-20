@@ -13,80 +13,82 @@
   </head>
 
   <body>
-    <nav class="main-nav">
-      <a href="../index.html"
-        class="logo-link"><img
-          src="../assets/logos/coffee-beans-logo-and-footer.svg"
-          class="coffee-beans-logo-and-footer"
-        />
-        <h2 class="nitro">nitro</h2></a
-      >
-      <a href="#" class="nav-links">ABOUT</a>
-      <a href="./menu.html" class="nav-links">MENU</a>
-      <a href="#" class="nav-links">SHOP NOW</a>
-    </nav>
+    <header class="nitro-header">
+      <div class="nitro-header__left-container">
+               <a href="./index.html" class="nitro-header__logo-link">
+          <img
+            src="../assets/logos/coffee-beans-logo-and-footer.svg"
+            class="nitro-header__icon"
+          /></a>
+          <h3 class="nitro-header__heading">nitro</h3>
+        </div>
+        <nav class="nitro-header__right-container">
+        <a href="#" class="nitro-header__nav-links">ABOUT</a>
+        <a href="./pages/menu.html" class="nitro-header__nav-links">MENU</a>
+        <a href="#" class="nitro-header__nav-links nitro-header__nav-links--nitro-blue">SHOP NOW</a>
+        </nav>
+      </header>
 
-    <header class="header">
-      <section class="header-background">
-        <h1 class="menu-title-box">MENU</h1>
+       <section class="nitro-header__background">
+        <h1 class="nitro-header__menu-background">MENU</h1>
       </section>
-      <section class="sub-navigation">
-        <a href="#hot-drinks">HOT DRINKS</a>
-        <a href="#cold-drinks">COLD DRINKS</a>
-        <a href="#pastries">PASTRIES</a>
+      <section class="nitro-header__sub-navigation">
+        <a class="nitro-header__sub-navigation-link" href="#hot-drinks" >HOT DRINKS</a>
+        <a class="nitro-header__sub-navigation-link" href="#cold-drinks">COLD DRINKS</a>
+        <a class="nitro-header__sub-navigation-link" href="#pastries">PASTRIES</a>
       </section>
     </header>
-    <main>
-      <section id="hot-drinks" class="HotDrinkSection">
-        <h1>Hot Drinks</h1>
-        <h3>In-house Brew</h3>
-        <p class="item-definition">
+    <main class="menu-options">
+      <section id="hot-drinks" class="menu-options__hotDrinkSection">
+        <h1 class="menu-options__hot-header">Hot Drinks</h1>
+        <h3 class="menu-options__hot-subheader">In-house Brew</h3>
+        <p class="menu-options__hot-item">
           Our in-house medium roast is a classic balance between sweet vanilla,
           nutty hazelnut, and a smooth low acidity to bring everything together
         </p>
-        <p class="price">$2.99</p>
-        <h3>Expresso</h3>
-        <p class="item-definition">
+        <p class="menu-options__hot-price">$2.99</p>
+        <h3 class="menu-options__hot-subheader">Expresso</h3>
+        <p class="menu-options__hot-item">
           A balance between bold and smooth, powerful and sweet, our signature
           espresso blend is a complex flavor profile. It features strong notes
           of semi-sweet chocolate and caramel, with mild acidity and a bright
           floral finish.
         </p>
-        <p class="price">$4.99</p>
+        <p class="menu-options__hot-price">$4.99</p>
       </section>
 
-      <section id="cold-drinks" class="ColdDrinkSection">
-        <h2>Cold Drinks</h2>
-        <h3>Cold Brew</h3>
-        <p class="item-definition">
+      <section id="cold-drinks" class="menu-options__coldDrinkSection">
+        <h2 class="menu-options__cold-header">Cold Drinks</h2>
+        <h3 class="menu-options__cold-subheader">Cold Brew</h3>
+        <p class="menu-options__cold-item">
           Our bright and delicious coffee blend, brewed over ice to give you a
           cold coffee freshness with all the flavor of our amazing in-house
           coffee.
         </p>
-        <p class="price">$3.99</p>
-        <h3>Iced Chai Latte</h3>
-        <p class="item-definition">
+        <p class="menu-options__cold-price">$3.99</p>
+        <h3 class="menu-options__cold-subheader">Iced Chai Latte</h3>
+        <p class="menu-options__cold-item">
           A creamy drink with a kick, this drink features spicy chai tea blended
           with your choice of milk and poured over ice.
         </p>
-        <p class="price">$6.99</p>
+        <p class="menu-options__cold-price">$6.99</p>
       </section>
 
-      <section id="pastries" class="Pastries">
-        <h2>Pastries</h2>
-        <h3>Bacon Oatmeal Raisin Cookie</h3>
-        <p class="item-definition">
+      <section id="pastries" class="menu-options__pastries">
+        <h2 class="menu-options__pastries-header">Pastries</h2>
+        <h3 class="menu-options__pastries-subheader">Bacon Oatmeal Raisin Cookie</h3>
+        <p class="menu-options__pastries-item">
           An infused bacon, sugar and egg mixture is folded into a perfect blend
           of oats, flour, raisins and cinnamon to create a soft and chewy
           textured cookie.
         </p>
-        <p class="price">$3.50</p>
-        <h3>Blueberry, Lemon and Thyme Muffin</h3>
-        <p class="item-definition">
+        <p class="menu-options__pastries-price">$3.50</p>
+        <h3 class="menu-options__pastries-subheader">Blueberry, Lemon and Thyme Muffin</h3>
+        <p class="menu-options__pastries-item">
           Tart and sweet, this classic blueberry and lemon combination comes
           with an earthy twist.
         </p>
-        <p class="price">$2.50</p>
+        <p class="menu-options__pastries-price">$2.50</p>
       </section>
     </main>
     <footer></footer>

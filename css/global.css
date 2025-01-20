@@ -17,6 +17,49 @@ p{
     font-size: 18px;
     font-weight: 400;
 }
+
+
+.nitro-header {
+    display: flex;
+    justify-content: space-between;
+    background: #fff0ed;  
+  }
+  
+  .nitro-header__left-container {
+    display: flex;
+    margin:auto 20px
+  }
+  
+  .nitro-header__right-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin: auto 0;
+  }
+  
+  .nitro-header__nav-links {
+    text-decoration: none;
+    color: #393939;
+    margin: auto 0;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  
+  .nitro-header__nav-links--nitro-blue {
+    color: #5bacc3;
+  }
+  
+  .nitro-header__logo-link {
+    margin: auto 0;
+  }
+  
+  .nitro-header__heading {
+    font-size: 60px;
+    font-family: "open sans";
+    font-weight: 300;
+    margin: auto 0;
+  }
+
 /* .main-nav{
     color: #393939;
     display: flex;
