@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+h1, h2{
+    font-size:3.75rem;
+    font-weight:300;
+}
+
+h3{
+    font-size:2.0625rem;
+    font-weight:300;
+}
+
+p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+.nitro-header {
+    display: flex;
+    justify-content: space-between;
+    background: #fff0ed;  
+  
+    &__left-container {
+    display: flex;
+    margin:auto 1.25rem;
+    }
+  
+    &__right-container {
+    display: flex;
+    gap: 1.875rem;
+    padding: 1.25rem;
+    margin: auto 0;
+    }
+  
+    &__nav-links {
+    text-decoration: none;
+    color: #393939;
+    margin: auto 0;
+    font-size: 2.0625rem;
+    font-weight: 400;
+
+      &--nitro-blue {
+      color: #5bacc3;
+      }
+    }
+  
+    &__logo-link {
+    margin: auto 0;
+    }
+  
+    &__heading {
+    font-size: 3.75rem;
+    font-family: "open sans";
+    font-weight: 300;
+    margin: auto 0;
+    }
+  }
+
+
+

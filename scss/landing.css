@@ -1,77 +1,260 @@
-:root{
-    font-size:16px;
-}
-
-
 body {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    background-color: #FFF0ED;
+  font-family: "Open Sans";
+  font-weight: 400;
 }
 
-
-h1, h2{
-    font-size: 3.75rem;
-    font-weight: 300;
-
+h1, h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
 }
 
-h3,.nav-heading, .footer-heading{
-    font-size: 2.0625rem;
-    font-weight: 300;
-    text-align: center;
+h3 {
+  font-size: 2.0625rem;
+  font-weight: 300;
 }
 
-p{
-    font-size: 1.125rem;
-    font-weight: 400;
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
-
-.icon{
-    width: 3.125rem;
+.nitro-header {
+  display: flex;
+  justify-content: space-between;
+  background: #fff0ed;
+}
+.nitro-header__left-container {
+  display: flex;
+  margin: auto 1.25rem;
+}
+.nitro-header__right-container {
+  display: flex;
+  gap: 1.875rem;
+  padding: 1.25rem;
+  margin: auto 0;
+}
+.nitro-header__nav-links {
+  text-decoration: none;
+  color: #393939;
+  margin: auto 0;
+  font-size: 2.0625rem;
+  font-weight: 400;
+}
+.nitro-header__nav-links--nitro-blue {
+  color: #5bacc3;
+}
+.nitro-header__logo-link {
+  margin: auto 0;
+}
+.nitro-header__heading {
+  font-size: 3.75rem;
+  font-family: "open sans";
+  font-weight: 300;
+  margin: auto 0;
 }
 
-
-.button{
-    background-color:#5BACC3;
-    color:white;
-    font-size: 1.3125rem;
-    font-weight: 400;
-    border: none;
-    outline: none;
-    padding: 0 0;
-    margin-bottom: 0;
+/* Hero Section */
+.nitro-hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  padding: 3.125rem;
+}
+.nitro-hero__left-container {
+  margin-left: 6.25rem;
+  margin-top: 6.25rem;
+  width: 25%;
+}
+.nitro-hero__button-container {
+  background-color: #5bacc3;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.9375rem 1.5625rem;
+  margin-top: 2.5rem;
+  position: relative;
+}
+.nitro-hero__button-container::after {
+  content: "";
+  position: absolute;
+  top: 0.3125rem;
+  right: -0.3125rem;
+  bottom: 0.3125rem;
+  left: -0.3125rem;
+  border: 0.125rem solid #393939;
+  z-index: 1;
+}
+.nitro-hero__button {
+  text-decoration: none;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  color: #F7F7F7;
+}
+.nitro-hero__right-container {
+  margin-right: 7.5rem;
 }
 
-
-.discount-banner{
-    width:90%;
-    background-color: #393939;
-    color: white;
-    font-size: 2.8125rem;
-    font-weight:400;
-    padding: 0 0;
-    margin: 0 0;
+/* Product Items Section */
+.product {
+  display: flex;
+  justify-content: Center;
+  background-color: #F7F7F7;
 }
 
-
-.price{
-    color: #5BACC3;
-    font-weight: 400;
-    font-size: 2.0625rem;
+.product-items {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F7F7F7;
+}
+.product-items__card {
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
+  box-shadow: rgb(240, 237, 237);
+  width: 20.625rem;
+  height: 27.5rem;
+}
+.product-items__card-bottom {
+  display: flex;
+  justify-content: space-between;
+  background: #fff0ed;
+  padding: 1.125rem;
+  border-radius: 0.625rem;
+}
+.product-items__card-bottom-left {
+  margin-left: 0.625rem;
+  padding-top: 1.25rem;
+}
+.product-items__card-bottom-right {
+  margin: auto 0;
+  padding-top: 1.25rem;
+}
+.product-items__card-image {
+  height: 17.5rem;
+  padding-top: 1.25rem;
+  padding-left: 6.25rem;
+}
+.product-items__product-name {
+  margin: 0;
+}
+.product-items__item-amount {
+  margin: 0;
+}
+.product-items__price {
+  color: #5bacc3;
+  font-weight: bold;
+  margin-top: 1.25rem;
+  margin-right: 1.25rem;
+  font-size: 1.5625rem;
+}
+.product-items__button {
+  margin: 3.125rem auto;
+  background-color: #5bacc3;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.9375rem 2.1875rem;
+}
+.product-items__button-txt {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3125rem;
+  font-weight: 400;
 }
 
-
-.footer{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap: 20px;
-    padding: 20px;
+/* We're Different Section */
+.we-different {
+  display: flex;
+  justify-content: space-between;
+}
+.we-different__3icons {
+  display: flex;
+  justify-content: space-between;
+}
+.we-different__icon {
+  width: 3.125rem;
+  display: flex;
+}
+.we-different__left-container {
+  width: 28%;
+  margin-left: 6.25rem;
+}
+.we-different__button {
+  margin-top: 1.875rem;
+  background-color: #5bacc3;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.9375rem 2.1875rem;
+}
+.we-different__button-txt {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3125rem;
+  font-weight: 400;
+}
+.we-different__right-container {
+  background-image: url("../assets/images/coldbrewbackground.png");
+  background-size: cover;
+  width: 25rem;
+  margin-right: 6.25rem;
+  position: relative;
+  display: block;
+}
+.we-different__right-container::after {
+  content: "";
+  position: absolute;
+  border: 0.3125rem solid #5BACC3;
+  z-index: 1;
+  top: -0.9375rem;
+  bottom: 0.9375rem;
+  left: -0.9375rem;
+  right: 0.9375rem;
+}
+.we-different__coldBrew-img {
+  margin-top: 3.75rem;
+  margin-left: 6.25rem;
+  animation: spin 4s infinite linear;
+  transform-origin: center;
 }
 
-.highlight{
-    font-weight: 700;
+/* Discount Banner Section */
+.discount-banner {
+  background-color: #393939;
+  width: 90%;
+  margin: 15.625rem auto;
+}
+.discount-banner__text {
+  color: #F7F7F7;
+  text-align: center;
+  font-size: 2.8125rem;
+  font-weight: 400;
+  padding: 3.125rem;
+}
+.discount-banner__highlight {
+  font-weight: 700;
 }
 
+/* Footer Section */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff0ed;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.footer_icon {
+  width: 3.125rem;
+}
+.footer__bg-lefticon {
+  width: 7.5rem;
+  opacity: 25%;
+  position: absolute;
+  margin-right: 101.25rem;
+  margin-bottom: 10rem;
+}
+.footer__bg-righticon {
+  width: 7.5rem;
+  opacity: 25%;
+  position: absolute;
+  margin-left: 101.25rem;
+  margin-top: 5rem;
+}/*# sourceMappingURL=landing.css.map */

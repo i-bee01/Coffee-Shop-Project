@@ -1,0 +1,257 @@
+@use "./partials/global" as *;
+
+
+
+/* Hero Section */
+
+.nitro-hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  padding:3.125rem;
+
+
+  &__left-container {  
+  margin-left: 6.25rem;
+  margin-top: 6.25rem;
+  width:25%;
+  }
+
+
+
+  &__button-container{
+  background-color: #5bacc3;
+  width:fit-content;
+  padding:.9375rem 1.5625rem;
+  margin-top: 2.5rem;
+  position:relative;
+
+  &::after{
+    content:"";
+    position: absolute;
+    top:.3125rem;
+    right:-.3125rem;
+    bottom:.3125rem;
+    left:-.3125rem;
+    border:.125rem solid #393939;
+    z-index: 1;
+    }
+  }
+
+  
+
+  &__button{
+  text-decoration: none;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  color: #F7F7F7;
+  }
+
+  &__right-container {
+  margin-right: 7.5rem;
+  }
+
+}
+
+
+/* Product Items Section */
+
+.product {
+  display: flex;
+  justify-content: Center;
+  background-color:  #F7F7F7;
+}
+
+
+.product-items {
+  display: flex;
+  justify-content: space-around;
+  background-color:  #F7F7F7;
+ 
+
+  &__card {
+  border: .0625rem solid #ddd;
+  border-radius: .625rem;
+  box-shadow: 0 .3125rem .5625rem -0.0625rem;
+  box-shadow: rgb(240, 237, 237);
+  width: 20.625rem;
+  height: 27.5rem;
+  }
+
+  &__card-bottom {
+  display: flex;
+  justify-content: space-between;
+  background: #fff0ed;
+  padding:1.125rem; 
+  border-radius:.625rem;
+  }
+
+  &__card-bottom-left {
+  margin-left: .625rem;
+  padding-top:1.25rem;
+  }
+
+  &__card-bottom-right {
+  margin: auto 0;
+  padding-top:1.25rem;
+  }
+
+  &__card-image {
+  height: 17.5rem;
+  padding-top: 1.25rem;
+  padding-left: 6.25rem;
+  }
+
+  &__product-name {
+  margin: 0;
+  }
+
+  &__item-amount {
+  margin: 0;
+  }
+
+  &__price {
+  color: #5bacc3;
+  font-weight: bold;
+  margin-top: 1.25rem;
+  margin-right: 1.25rem;
+  font-size: 1.5625rem;
+  }
+
+  &__button{
+  margin: 3.125rem auto;
+  background-color: #5bacc3;
+  width:fit-content;
+  padding:.9375rem 2.1875rem;
+  }
+
+  &__button-txt{
+  text-decoration: none;
+  color:white;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  }
+}
+
+/* We're Different Section */
+.we-different{
+  display:flex;
+  justify-content: space-between;
+
+
+  &__3icons{
+  display: flex;
+  justify-content: space-between;
+  }
+
+
+  &__icon{
+  width:3.125rem;  
+  display: flex;   
+  }
+
+  &__left-container{
+  width:28%;
+  margin-left: 6.25rem;
+  }
+
+  &__button{
+  margin-top: 1.875rem;
+  background-color: #5bacc3;
+  width:fit-content;
+  padding:.9375rem 2.1875rem;
+  }
+
+  &__button-txt{
+  text-decoration: none;
+  color:white;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  }
+
+  &__right-container{
+  background-image: url('../assets/images/coldbrewbackground.png');
+  background-size: cover;
+  width:25rem;
+  margin-right:6.25rem;
+  position:relative;
+  display: block;
+  }
+
+  &__right-container::after{
+  content:"";
+  position: absolute;
+  border:.3125rem solid #5BACC3;
+  z-index: 1;
+  top:-0.9375rem;
+  bottom:.9375rem;
+  left:-0.9375rem;
+  right:.9375rem;
+  }
+
+  &__coldBrew-img{
+  margin-top:3.75rem;
+  margin-left: 6.25rem;
+  animation: spin 4s infinite linear;
+  transform-origin: center;
+  }
+}  
+  
+  
+ 
+
+
+ /* Discount Banner Section */
+
+.discount-banner{
+  background-color: #393939;
+  width:90%;
+  margin: 15.625rem auto;
+
+
+  &__text{
+  color: #F7F7F7;
+  text-align: center;
+  font-size: 2.8125rem;
+  font-weight:400;
+  padding:3.125rem;
+  }
+
+  &__highlight{
+  font-weight: 700;
+  }
+}  
+  
+
+/* Footer Section */
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff0ed;
+  padding:2.5rem;
+  position: relative;
+  overflow: hidden;
+
+
+  &_icon{
+  width:3.125rem;  
+  }
+
+  &__bg-lefticon{
+  width:7.5rem;
+  opacity:25%;
+  position: absolute;
+  margin-right: 101.25rem;
+  margin-bottom: 10rem;  
+  }
+
+  &__bg-righticon{
+  width:7.5rem;
+  opacity:25%;
+  position: absolute;
+  margin-left: 101.25rem;
+  margin-top: 5rem;  
+  }
+}
+
+
