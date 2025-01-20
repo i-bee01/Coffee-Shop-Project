@@ -35,11 +35,11 @@ p{
 }
 
 
-.coffee-beans-logo-and-footer{
+/* .coffee-beans-logo-and-footer{
     width: 3.125rem;
     display: flex;
     align-items: center;
-}
+} */
 
 
 .menu-title-box{
@@ -76,7 +76,6 @@ p{
     width: 100%;
     height: 5rem;
     padding: 1.25rem;
-    margin: 1.25rem;
     border: 0.25rem #5BACC3;
     align-items:center;
     justify-content: center;
