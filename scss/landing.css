@@ -76,8 +76,8 @@ p {
 .nitro-hero__button-container::after {
   content: "";
   position: absolute;
-  top: 0.3125rem;
-  right: -0.3125rem;
+  top: -0.3125rem;
+  right: 0.3125rem;
   bottom: 0.3125rem;
   left: -0.3125rem;
   border: 0.125rem solid #393939;
@@ -152,12 +152,33 @@ p {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.9375rem 2.1875rem;
+  position: relative;
+}
+.product-items__button::after {
+  content: "";
+  position: absolute;
+  top: -0.3125rem;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+  left: -0.3125rem;
+  border: 0.125rem solid #393939;
+  z-index: 1;
 }
 .product-items__button-txt {
   text-decoration: none;
   color: white;
   font-size: 1.3125rem;
   font-weight: 400;
+}
+.product-items__button-txt::after {
+  content: "";
+  position: absolute;
+  top: -0.3125rem;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+  left: -0.3125rem;
+  border: 0.125rem solid #393939;
+  z-index: 1;
 }
 
 /* We're Different Section */
@@ -183,6 +204,17 @@ p {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.9375rem 2.1875rem;
+  position: relative;
+}
+.we-different__button::after {
+  content: "";
+  position: absolute;
+  top: -0.3125rem;
+  right: 0.3125rem;
+  bottom: 0.3125rem;
+  left: -0.3125rem;
+  border: 0.125rem solid #393939;
+  z-index: 1;
 }
 .we-different__button-txt {
   text-decoration: none;

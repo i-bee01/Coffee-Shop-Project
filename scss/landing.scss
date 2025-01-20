@@ -29,16 +29,14 @@
   &::after{
     content:"";
     position: absolute;
-    top:.3125rem;
-    right:-.3125rem;
+    top:-.3125rem;
+    right:.3125rem;
     bottom:.3125rem;
     left:-.3125rem;
     border:.125rem solid #393939;
     z-index: 1;
     }
   }
-
-  
 
   &__button{
   text-decoration: none;
@@ -123,6 +121,19 @@
   background-color: #5bacc3;
   width:fit-content;
   padding:.9375rem 2.1875rem;
+  position:relative;
+
+  &::after{
+    content:"";
+    position: absolute;
+    top:-.3125rem;
+    right:.3125rem;
+    bottom:.3125rem;
+    left:-.3125rem;
+    border:.125rem solid #393939;
+    z-index: 1;
+  }
+  
   }
 
   &__button-txt{
@@ -130,6 +141,17 @@
   color:white;
   font-size: 1.3125rem;
   font-weight: 400;
+  
+  &::after{
+    content:"";
+    position: absolute;
+    top:-.3125rem;
+    right:.3125rem;
+    bottom:.3125rem;
+    left:-.3125rem;
+    border:.125rem solid #393939;
+    z-index: 1;
+    }
   }
 }
 
@@ -160,14 +182,30 @@
   background-color: #5bacc3;
   width:fit-content;
   padding:.9375rem 2.1875rem;
+  position:relative;
+
+  &::after{
+    content:"";
+    position: absolute;
+    top:-.3125rem;
+    right:.3125rem;
+    bottom:.3125rem;
+    left:-.3125rem;
+    border:.125rem solid #393939;
+    z-index: 1;
   }
+}
 
   &__button-txt{
   text-decoration: none;
   color:white;
   font-size: 1.3125rem;
   font-weight: 400;
-  }
+  
+
+   
+}
+
 
   &__right-container{
   background-image: url('../assets/images/coldbrewbackground.png');
